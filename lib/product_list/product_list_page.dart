@@ -4,11 +4,10 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:share_plus/share_plus.dart';
 import 'package:stikky_code_test/product_list/product_list_response.dart';
 
-import 'cubit/product_list_cubit.dart';
 import '../env.dart';
+import 'cubit/product_list_cubit.dart';
 
 part 'widgets/list_item_view.dart';
-
 part 'widgets/product_list_view.dart';
 
 class ProductListPage extends StatefulWidget {
