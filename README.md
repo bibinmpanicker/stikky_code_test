@@ -42,14 +42,17 @@ API** with pagination.
 
 ### Installation
 
-1. Clone the repository
+- clone https://github.com/bibinmpanicker/stikky_code_test.git
+- cd stikky_code_test
+- flutter pub get
+- flutter run --dart-define=SHOPIFY_ENDPOINT=<your-shopify-endpoint.myshopify.com>
+  --dart-define=SHOPIFY_TOKEN=<your-access-token>
+- (replace <your-shopify-endpoint.myshopify.com> and <your-access-token> with your actual Shopify
+  Storefront API details.)
 
-   - cd stikky_code_test
-   - flutter pub get
-   - flutter run --dart-define=SHOPIFY_ENDPOINT=<your-shopify-endpoint.myshopify.com> --dart-define=SHOPIFY_TOKEN=<your-access-token>
-   - (replace <your-shopify-endpoint.myshopify.com> and <your-access-token> with your actual Shopify Storefront API details.)
+---
 
+## AL Usage
 
-##  AL Usage
 - Model class generation.
 - README.md polishing.
