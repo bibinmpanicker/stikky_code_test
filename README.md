@@ -45,10 +45,10 @@ API** with pagination.
 - clone https://github.com/bibinmpanicker/stikky_code_test.git
 - cd stikky_code_test
 - flutter pub get
-- flutter run --dart-define=SHOPIFY_ENDPOINT=<your-shopify-endpoint.myshopify.com>
-  --dart-define=SHOPIFY_TOKEN=<your-access-token>
-- (replace <your-shopify-endpoint.myshopify.com> and <your-access-token> with your actual Shopify
-  Storefront API details.)
+- flutter run --dart-define=SHOPIFY_ENDPOINT=<---your-shopify-endpoint.myshopify.com--->
+  --dart-define=SHOPIFY_TOKEN=<---your-access-token--->
+- (replace <---your-shopify-endpoint.myshopify.com---> and <---your-access-token---> with your
+  actual Shopify Storefront API details.)
 
 ---
 
